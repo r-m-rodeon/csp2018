@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <title>The Quest of a Lifetime - Ron Malinovski</title>
+  <head>
+      <style>
+        body {
+          background-image:url("images/background2.jpg"); background-size: 100%; background-repeat: no-repeat; background-attachment: fixed; background-position: center; 
+          background-color: #000000;
+          font-family:"Georgia";
+          font-size:30px;
+              }
+     /* Dropdown Button */
+        .dropbtn {
+          background-color: #f1f1f1;
+          color: black;
+          padding: 9px;
+          font-size: 16px;
+          border: none;
+                  }
+
+     /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+          position: relative;
+          display: inline-block;
+                    }
+
+     /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f3f4f4;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+                            }
+
+     /* Links inside the dropdown */
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+                              }
+
+     /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {background-color: #f3f4f4}
+
+     /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+          display: block;
+                                            }
+
+     /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+          background-color: #f3f3f3;
+                                  }
+     /* Greeting */
+        body {
+          font-family: sans-serif;
+          font-size: 2.5rem;
+          color: #ffffff;
+              }
+
+        .greeting {
+          font-weight: 600;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+                    }
+      </style>
+      <link rel="stylesheet" type="text/css" href="body.css">
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="title.CSS">
+      <body>
+
+     <!-- Sidebar -->
+        <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:12%">
+          <h3 class="w3-bar-item">Menu</h3>
+            <a href="index_main.html" class="w3-bar-item w3-button">Home</a>
+            <a href="about.html" class="w3-bar-item w3-button">About</a>
+            <a href="snake.html" class="w3-bar-item w3-button">Snake</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Portfolio</button>
+                    <div class="dropdown-content">
+                      <a href="p1.html">Project 1</a>
+                      <a href="p2.html">Project 2</a>
+                      <a href="p3.html">Project 3</a>
+                      <a href="p4.html">Project 4</a>
+                      <a href="p5.html">Project 5</a>
+                      <a href="p6.html">Project 6</a>
+                      <a href="p7.html">Project 7</a>
+                      <a href="p8.html">Project 8</a>
+                    </div>
+                </div>
+        </div>
+
+     <!-- Page Content -->
+        <div style="margin-left:12%">
+
+          <div class="w3-container w3-red">
+            <h1>The Quest of a Lifetime - Ron Malinovski</h1>
+          </div>
+
+
+           <div class="w3-container">
+             <script>
+  var thehours = new Date().getHours();
+	var themessage;
+	var morning = ('Good morning');
+	var afternoon = ('Good afternoon');
+	var evening = ('Good evening');
+
+	if (thehours >= 0 && thehours < 12) {
+		themessage = morning; 
+
+	} else if (thehours >= 12 && thehours < 17) {
+		themessage = afternoon;
+
+	} else if (thehours >= 17 && thehours < 24) {
+		themessage = evening;
+	}
+    
+    /*global$*/
+	$('.greeting').append(themessage);</script>
+               <div class="greeting"></div>
+               <center>
+                 
+             <iframe height="650px" width="100%" src="https://repl.it/@rmrodeon/TheQuestOfALifetime?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+             
+             <p><i>The Quest of a Lifetime</i> was created from a <a href="images/flowchart.jpg">flowchart</a> using Python language.</p>
+             <p>To start, press the play button in the bottom right corner of the application. 
+             Follow on screen prompts. Good Luck!</p>
+             <p><a href="https://repl.it/@rmrodeon/TheQuestOfALifetime">Open in repl.it</a>
+                 <a href="main.py" download>Download this Project</a></p>
+             </center>
+           </div>
+  
+          </div>
+      
+      </body>
+</html>
