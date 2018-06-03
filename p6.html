@@ -54,6 +54,13 @@
         .dropdown:hover .dropbtn {
           background-color: #f3f3f3;
                                   }
+                                  
+     /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+                 }
      /* Greeting */
         body {
           font-family: sans-serif;
@@ -100,10 +107,27 @@
         <div style="margin-left:12%">
 
           <div class="w3-container w3-red">
-            <h1>Python - Making a GUI (Graphical User Interface)</h1>
+            <h1>Python - Making a GUI (Graphic User Interface)</h1>
           </div>
 
-          <img src="images/minions-wide.jpg" alt="Min" style="width:100%" style="height:50%">
+          <img src="images/canopy_logo.jpg" alt="Min" style="width:100%" style="height:50%">
+          
+          <div class="row">
+            <p style="color: #ffffff; background-color: #000000"><b><font size="5" color="white" face="calibri">README:  </font><font size="3" color="white">Files on school computer. This page will be updated shortly.
+                                                                         </font></b></p>
+              <div class="column">
+                <img src="images/sample.jpg" alt="Min" style="width:100%" style="height:50%">
+              </div>
+               <div class="column">
+                <img src="images/sample.jpg" alt="Min" style="width:80%" style="height:50%">
+                <p> </p>
+                <p> </p>
+                <p><font size="3" color="white">Text goes here. </font></p>
+                <p><font size="3" color="white">Text goes here. </font></p>
+                <p><a href="pygraph.py" download>Download this Project</a></p>
+                <div align="right"><img src="images/python_logo.png" alt="Min" style="width:20%" style="height:20%"></div>
+              </div>
+          </div>  
 
            <div class="w3-container">
              <script>
@@ -126,9 +150,7 @@
     /*global$*/
 	$('.greeting').append(themessage);</script>
                <div class="greeting"></div>
-            <p><font size="5" color="white">This is some text!</font></p>
-            <p><font size="3" color="white">This is some text!</font></p>
-            <p><font size="3" color="white">This is some text!</font></p>
+
            </div>
   
           </div>
