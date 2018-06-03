@@ -54,6 +54,13 @@
         .dropdown:hover .dropbtn {
           background-color: #f3f3f3;
                                   }
+                                  
+     /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+                 }
      /* Greeting */
         body {
           font-family: sans-serif;
@@ -103,7 +110,22 @@
             <h1>Home - Ron Malinovski</h1>
           </div>
 
-          <img src="images/minions-wide.jpg" alt="Min" style="width:100%" style="height:50%">
+          <img src="images/canopy_logo.jpg" alt="Min" style="width:100%" style="height:50%">
+          
+          <div class="row">
+            <p style="color: #ffffff; background-color: #000000"><b><font size="5" color="white" face="calibri">README:  </font><font size="3" color="white">This project brings us back to Python.
+                                                                                            The code to the left shows how Python can be used to retrieve information and display it graphically. Read more below.</font></b></p>
+              <div class="column">
+                <img src="images/pygraphcode.jpg" alt="Min" style="width:100%" style="height:50%">
+              </div>
+               <div class="column">
+                <img src="images/pygraph.jpg" alt="Min" style="width:80%" style="height:50%">
+                <p> </p>
+                <p> </p>
+                <p><font size="3" color="white">This is some text!</font></p>
+                <p><a href="pygraph.py" download>Download this Project</a></p>
+              </div>
+          </div>  
 
            <div class="w3-container">
              <script>
@@ -126,9 +148,7 @@
     /*global$*/
 	$('.greeting').append(themessage);</script>
                <div class="greeting"></div>
-            <p><font size="5" color="white">This is some text!</font></p>
-            <p><font size="3" color="white">This is some text!</font></p>
-            <p><font size="3" color="white">This is some text!</font></p>
+
            </div>
   
           </div>

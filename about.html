@@ -54,6 +54,12 @@
         .dropdown:hover .dropbtn {
           background-color: #f3f3f3;
                                   }
+     /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+                 }
      /* Greeting */
         body {
           font-family: sans-serif;
@@ -123,11 +129,16 @@
 
 	$('.greeting').append(themessage);</script>
                <div class="greeting"></div>
-            <p><font size="5" font-weight="300" color="white">Ron Malinovski</font></p>
-            <p><font size="3" font-weight="300" color="white">Student by day, student by night. Mafioso in between.</font></p>
-            <p><font size="3" font-weight="300" color="white">Yes, I belong to the Russian Mafia. Fear me.</font></p>
-	    <p><font size="3" font-weight="300" color="white">Even when I'm busy, I always find time for Netflix.</font></p>
-	    <p><font size="3" font-weight="300" color="white">Peace.</font></p>
+               <div class="column">
+               <div style="color: #ffffff; background-color: #000000; opacity: 0.8">
+            <p><b><font size="10" font-weight="300" color="white" face="impact">Ron Malinovski</font></b></p>
+            <p><font size="5" font-weight="300" color="white" face="calibri">Student by day, student by night. Mafioso in between.</font></p>
+            <p><font size="5" font-weight="300" color="white" face="calibri">Yes, I belong to the Russian Mafia. Fear me.</font></p>
+	    <p><font size="5" font-weight="300" color="white"face="calibri">I try to find time for sleep, but life gets in the way.</font></p>
+	    <p><font size="5" font-weight="300" color="white" face="calibri">Peace... XD</font></p><br>
+	    <p><font size="3" font-weight="300" color="white" face="calibri">P.S. My favorite games are Snake and Tetris. Look to the menu to play snake.</font></p>
+	         </div>
+           </div>
            </div>
   
           </div>
