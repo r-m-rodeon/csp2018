@@ -1,0 +1,9 @@
+To push to GitHub:
+    1. go to bash below V
+    2. type "git init"
+    3. type "ll" [to go to the top folder]
+    4. type "git add ."
+    5. type "git commit"
+    6. name "Edited in c9", press Return
+    7. press Y, Return
+    8. type "git push"
