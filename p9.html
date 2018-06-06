@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <title>State Capitals Game - Ron Malinovski</title>
+  <title>Altering Simulations - Ron Malinovski</title>
   <head>
       <style>
         body {
@@ -54,6 +54,13 @@
         .dropdown:hover .dropbtn {
           background-color: #f3f3f3;
                                   }
+                                  
+     /* Create two equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 50%;
+          padding: 10px;
+                 }
      /* Greeting */
         body {
           font-family: sans-serif;
@@ -101,9 +108,10 @@
         <div style="margin-left:12%">
 
           <div class="w3-container w3-red">
-            <h1>Python - State Capitals Game</h1>
+            <h1>Altering Simulations in NetLogo</h1>
           </div>
 
+          <img src="images/netlogo.png" alt="Min" style="width:100%" style="height:50%">
 
            <div class="w3-container">
              <script>
@@ -125,19 +133,20 @@
     
     /*global$*/
 	$('.greeting').append(themessage);</script>
-               <div class="greeting"></div>
-          <!--  <p style="color: #ffffff; background-color: #000000"><b><font size="5" color="white" face="calibri">Files on school computer. This page will be updated shortly!</font></b></p> -->
-          <iframe height="650px" width="100%" src="https://repl.it/@rmrodeon/InfatuatedCarelessDevelopment?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-          <!--  <center><img src="images/sample.jpg" alt="Min" style="width:40%" style="height:40%"></center> -->
-          <div width="60%"><center>
-            <p> </p>
-             <p>In this game, you will guess the capitals of states from 3 different choices. <br><br> To start, press the play button in the bottom right corner of the application. <br> To answer, type the complete name of the city just as it appears in the choices and press enter.
-             <br><br>Follow on screen prompts. Good Luck!</p>
-             <p><a href="https://repl.it/@rmrodeon/InfatuatedCarelessDevelopment">Open in repl.it</a>
-                 <a href="capital_city.py" download>Download this Project</a></p></center>
-                 </div>
-           </div>
-           <center><img src="images/replit.svg" alt="Min" style="width:20%" style="height:20%"><img src="images/python_logo.png" alt="Min" style="width:10%" style="height:10%"></center>
+              <div class="row">
+            <p style="color: #ffffff; background-color: #000000"><b><font size="5" color="white" face="calibri">README:  </font><font size="3" color="white">This is a modified simulation from the original that can be found in the NetLogo simulation library. Read more below.
+                                                                         </font></b></p>
+              <div class="column">
+                <img src="images/netlogoscreenshot.png" alt="Min" style="width:100%" style="height:50%">
+              </div>
+               <div class="column">
+                   <br>
+                <p><font size="3" color="white">The simulation has a changed color and structure.<br> You can download code for the simulation <a href="Voting Around Me.nlogo" download>here</a>. <br>You will need to have the NetLogo desktop client<br> installed to run the simulation successfully. </font></p>
+                <p><font size="3" color="white">   </font></p>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div align="right"><img src="images/python_logo.png" alt="Min" style="width:20%" style="height:20%"></div>
+              </div>
+          </div>  
   
           </div>
       
